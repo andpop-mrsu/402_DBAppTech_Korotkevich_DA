@@ -1,0 +1,24 @@
+{
+    "name": "dmitriykorotkevich/hangman",
+    "description": "Console game \"Hangman\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dmitriykorotkevich\\Hangman\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/hangman"
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "wp-cli/php-cli-tools": "^0.12.6"
+    },
+    "authors": [
+        {
+            "name": "Dmitriy Korotkevich",
+            "email": "githubdmitriy@gmail.com"
+        }
+    ]
+}
